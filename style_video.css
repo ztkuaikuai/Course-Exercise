@@ -3,7 +3,8 @@
     position: relative;
     margin-right: 32px;
     width: 300px;
-    height: 900px;
+    height: 1008px;
+    /* 为了对齐视频 */
     color: #fff;
     line-height: 1.8;
     background-color: #245cb9;
@@ -25,12 +26,13 @@
 
 .intro h2 {
     display: inline-block;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
 .intro p {
     display: inline-block;
-    padding: 0 20px 20px;
+    padding: 0 20px;
 }
 
 .intro p span {

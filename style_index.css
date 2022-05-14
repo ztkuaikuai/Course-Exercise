@@ -50,7 +50,9 @@
 }
 
 .scroll .item:hover {
+    /* flex-shrink指定了当子元素超出父元素的收缩规则，默认为1，为0时不收缩 */
     flex-shrink: 0;
+    /* flex-grow 属性用于设置或检索弹性盒子的扩展比率，默认为0 */
     flex-grow: 0;
 }
 
