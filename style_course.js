@@ -7,8 +7,8 @@ window.onscroll = function(){
 
     //设置目标位置（最终停在哪里
     //当滚动超过200时，启动脚本 
-    if(scrollTop >= 200){
-    var target = scrollTop - 200;
+    if(scrollTop >= 300){
+    var target = scrollTop - 300;
 
     moveHandle(target);
     }

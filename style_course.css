@@ -1,13 +1,10 @@
-.main-box {
-    height: 2000px;
-}
-
 i {
     font-style: none;
 }
 
 .sidebar-box {
     position: relative;
+    z-index: 2;
 }
 
 .sidebar {
@@ -88,6 +85,48 @@ i {
 .sidebar a:hover i {
     color: #268480;
 }
+article {
+    position: relative;
+    z-index: 0;
+    /* 层叠 */
+    /* bug：当z-index设置为负数时，z-index为负值的元素将被放置在body层之下，所以点击和hover事件都被body层覆盖了。导致无法实现：hover和下载  */
+}
+article iframe {
+    border-style: none;
+    border-radius: 10px;
+}
+article .download {
+    position: absolute;
+    z-index: 1;
+    top: 900px;
+    right: -120px;
+    width: 100px;
+    height: 100px;
+    background-color: #245cb9;
+    border-radius: 6px;
+}
 
+.download li {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.download a {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;   
+}
+.download a span{
+    display: inline-block;
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    line-height: 60px;
+    transition: .5s;
+}
 
-
+.download a:hover {
+    color: #ff8a79;
+}
