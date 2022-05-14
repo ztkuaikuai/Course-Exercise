@@ -1,0 +1,46 @@
+.intro {
+    float: left;
+    position: relative;
+    margin-right: 32px;
+    width: 300px;
+    color: #fff;
+    line-height: 1.8;
+    background-color: #245cb9;
+    border-radius: 4px;
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, rgb(56, 189, 248), rgb(59, 130, 246));
+    border-radius: 4px;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.intro h2 {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.intro p {
+    display: inline-block;
+    padding: 0 20px 20px;
+}
+
+.intro p span {
+    padding-left: 20px;
+}
+
+.play video{
+    float: left;
+    width: 868px;
+}
+
+.play video:nth-child(1) {
+    margin-bottom: 32px;
+}

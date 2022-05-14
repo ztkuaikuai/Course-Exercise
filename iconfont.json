@@ -1,0 +1,114 @@
+{
+  "id": "3394030",
+  "name": "for_KeChenSheJi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "25484291",
+      "name": "云实验室",
+      "font_class": "yunshiyanshi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7008908",
+      "name": "computer_fill",
+      "font_class": "computer_fill",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "7008909",
+      "name": "computer",
+      "font_class": "computer",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "7008942",
+      "name": "group",
+      "font_class": "group",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "7008943",
+      "name": "group_fill",
+      "font_class": "group_fill",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "7008946",
+      "name": "homepage_fill",
+      "font_class": "homepage_fill",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "7008947",
+      "name": "homepage",
+      "font_class": "homepage",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "7008953",
+      "name": "label",
+      "font_class": "label",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "7008954",
+      "name": "label_fill",
+      "font_class": "label_fill",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "7008975",
+      "name": "order_fill",
+      "font_class": "order_fill",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "7008976",
+      "name": "order",
+      "font_class": "order",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "7008984",
+      "name": "playon_fill",
+      "font_class": "playon_fill",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "7008985",
+      "name": "playon",
+      "font_class": "playon",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "7009036",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "7009037",
+      "name": "video_fill",
+      "font_class": "video_fill",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    }
+  ]
+}
