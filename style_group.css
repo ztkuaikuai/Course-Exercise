@@ -1,0 +1,60 @@
+.member-box {
+    position: relative;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 32px;
+    width: 200px;
+    height: 380px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.member-box:nth-child(5){
+    margin-right: 0;
+}
+.member-box:nth-child(6){
+    margin-bottom: 0;
+}
+.member-box:nth-child(7){
+    margin-bottom: 0;
+}
+
+
+
+.member {
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    background-color: #245cb9;
+    border-radius: 4px;
+    transition: .15s linear;
+}
+
+.member:hover {
+    transform: translateY(-2px);
+    /* 用transform结合transition实现盒子上移 */
+    box-shadow: 2px 3px 12px rgba(0,0,0,.3);
+}
+
+.member img {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    width: 160px;
+    height: 220px;
+}
+
+.member h2 {
+    padding-left: 20px;
+}
+
+.member p {
+    padding:0 20px;
+    font-size: 16px;
+}
+
+.member p span {
+    padding-left: 20px;
+}
