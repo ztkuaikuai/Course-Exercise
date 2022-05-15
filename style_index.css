@@ -48,6 +48,9 @@
     /* transition设置元素过渡效果 */
     overflow: hidden;
 }
+.scroll .item img {
+    height: 394px;
+}
 
 .scroll .item:hover {
     /* flex-shrink指定了当子元素超出父元素的收缩规则，默认为1，为0时不收缩 */
