@@ -148,8 +148,7 @@ article .download {
 /* 以下是下载页面的css */
 .download-box {
     position: relative;
-    height: 1000px;
-    background-color: #245cb9;
+    background-image: linear-gradient(to right bottom, #245cb9, #3163c1, #3c6ac9, #4672d2, #5079da);
     border-radius: 4px
 }
 
@@ -160,8 +159,80 @@ article .download {
     left: 1px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right top, rgb(56, 189, 248), rgb(59, 130, 246));
+    background: linear-gradient(to right bottom, #245cb9, #3163c1, #3c6ac9, #4672d2, #5079da);
     border-radius: 4px;
     filter: blur(3px);
     z-index: -1;
+}
+
+.download-box h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 36px;
+    line-height: 84px;
+    text-align: center;
+}
+
+.download-box .item {
+    width: 900px;
+    height: 84px;
+}
+
+.download-box .item2 {
+    width: 300px;
+    height: 84px;
+}
+
+.click_download {
+    position: relative;
+    margin: 16px 48px;
+    width: 1102px;
+    height: 58px;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    /* backdrop-filter 添加图形效果（如模糊或颜色偏移） */
+    border: solid 1px rgba(255, 255, 255, .3);
+    border-radius: 4px;
+    transition: .15s linear;
+}
+
+.click_download:hover {
+    transform: translateY(-2px);
+    /* 用transform结合transition实现盒子上移 */
+    box-shadow: 2px 2px 8px rgba(255,255,255,.2);
+}
+
+.click_download:hover .name {
+    color: #ff8a79;
+}
+
+.click_download .name {
+    position: absolute;
+    padding-top: 12px;
+    padding-left: 30px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    transition: .3s;
+}
+
+.click_download .button {
+    position: absolute;
+    right: 64px;
+    top: 0;
+    height: 60px;
+    width: 60px;
+}
+.click_download .button:hover span{
+    color: #ff8a79;
+}
+.click_download .button a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+.click_download .button span {
+    font-size: 52px;
+    transition: .3s;
 }
