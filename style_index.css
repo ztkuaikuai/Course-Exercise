@@ -22,6 +22,7 @@
 .intro h2 {
     display: inline-block;
     padding-left: 20px;
+    padding-top: 10px;
 }
 
 .intro p {

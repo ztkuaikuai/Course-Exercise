@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "15838516",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "31416",
+      "name": "pic",
+      "font_class": "pic",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "11488108",
+      "name": "rejected-order",
+      "font_class": "rejected-order",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "6150960",
+      "name": "WIFI",
+      "font_class": "WIFI",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "6150961",
+      "name": "bug-report",
+      "font_class": "bug-report",
+      "unicode": "e76d",
+      "unicode_decimal": 59245
+    },
+    {
       "icon_id": "3868263",
       "name": "编辑",
       "font_class": "bianji",

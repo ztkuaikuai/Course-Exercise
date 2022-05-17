@@ -2,6 +2,8 @@ i {
     font-style: none;
 }
 
+
+
 .sidebar-box {
     position: relative;
     z-index: 2;
@@ -16,7 +18,7 @@ i {
     align-items: center;
     flex-direction: column;
     width: 100px;
-    height: 550px;
+    height: 348px;
     border-radius: 6px;
     background-color: #245cb9;
     transition: .3s;
@@ -26,7 +28,7 @@ i {
     position: relative;
     margin: 9px;
     width: 85%;
-    height: 15%;
+    height: 67.5px;
     transition: .3s;
 }
 .sidebar a {
@@ -42,17 +44,25 @@ i {
 .sidebar span {
     font-size: 50px;
     position: absolute;
-    margin: 8px 0 0 16px;
+    margin: 5px 0 0 16px;
     transition: .5s;
     color: #f5f5f5;
 }
 
 .sidebar li:nth-child(2) span {
-    font-size: 58px;
-    margin: 4px 0 0 12px;
+    font-size: 65px;
+    margin: 0 0 0 8px;
 }
 
-.sidebar li:nth-child(5)::before {
+.sidebar li:nth-child(3) span {
+    margin: 7px 0 0 18px;
+}
+
+.sidebar li:nth-child(4) span {
+    margin: 8px 0 0 16px;
+}
+
+.sidebar li:nth-child(3)::before {
     content: "";
     display: block;
     width: 100%;
@@ -134,4 +144,24 @@ article .download {
 
 .download a:hover {
     color: #ff8a79;
+}
+/* 以下是下载页面的css */
+.download-box {
+    position: relative;
+    height: 1000px;
+    background-color: #245cb9;
+    border-radius: 4px
+}
+
+.download-box::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, rgb(56, 189, 248), rgb(59, 130, 246));
+    border-radius: 4px;
+    filter: blur(3px);
+    z-index: -1;
 }

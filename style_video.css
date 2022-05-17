@@ -41,6 +41,7 @@
 
 .play video{
     float: left;
+    border-radius: 4px;
     width: 868px;
 }
 

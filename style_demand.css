@@ -16,7 +16,7 @@ i {
     align-items: center;
     flex-direction: column;
     width: 100px;
-    height: 550px;
+    height: 256px;
     border-radius: 6px;
     background-color: #245cb9;
     transition: .3s;
@@ -26,7 +26,7 @@ i {
     position: relative;
     margin: 9px;
     width: 85%;
-    height: 15%;
+    height: 67.5px;
     transition: .3s;
 }
 .sidebar a {
@@ -47,12 +47,12 @@ i {
     color: #f5f5f5;
 }
 
+.sidebar li:nth-child(1) span,
 .sidebar li:nth-child(2) span {
-    font-size: 58px;
-    margin: 4px 0 0 12px;
+    margin-top: 4px;
 }
 
-.sidebar li:nth-child(5)::before {
+.sidebar li:nth-child(2)::before {
     content: "";
     display: block;
     width: 100%;
