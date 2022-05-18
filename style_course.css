@@ -16,7 +16,7 @@ i {
     align-items: center;
     flex-direction: column;
     width: 100px;
-    height: 550px;
+    height: 525px;
     border-radius: 6px;
     background-color: #245cb9;
     transition: .3s;
@@ -26,7 +26,8 @@ i {
     position: relative;
     margin: 9px;
     width: 85%;
-    height: 15%;
+    height: 67.5px;
+    /* 之前是15%，现在改成固定高，可能兼容性更好（？） */
     transition: .3s;
 }
 .sidebar a {

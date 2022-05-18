@@ -1,3 +1,5 @@
+// 侧边滚动栏js
+
 window.onscroll = function(){
     // 获取侧边栏对象
     var oDiv = document.getElementsByClassName('sidebar')[0];
@@ -6,7 +8,7 @@ window.onscroll = function(){
     var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
     //设置目标位置（最终停在哪里
-    //当滚动超过200时，启动脚本 
+    //当滚动超过300时，启动脚本 
     if(scrollTop >= 300){
     var target = scrollTop - 300;
 

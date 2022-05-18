@@ -44,7 +44,7 @@ i {
 .sidebar span {
     font-size: 50px;
     position: absolute;
-    margin: 5px 0 0 16px;
+    margin: 8px 0 0 16px;
     transition: .5s;
     color: #f5f5f5;
 }
@@ -55,11 +55,7 @@ i {
 }
 
 .sidebar li:nth-child(3) span {
-    margin: 7px 0 0 18px;
-}
-
-.sidebar li:nth-child(4) span {
-    margin: 8px 0 0 16px;
+    margin-left: 18px;
 }
 
 .sidebar li:nth-child(3)::before {
